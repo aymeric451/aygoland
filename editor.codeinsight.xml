@@ -4,6 +4,7 @@
   </component>
   <component name="Go">
     <option name="detectGoPackageFromClipboard" value="false" />
+    <option name="renameSearchNonCodeForFunction" value="true" />
     <option name="showDocumentationInParameterPopup" value="true" />
   </component>
 </application>

@@ -1,0 +1,14 @@
+<templateSet group="Go">
+  <template name="iferr" value="if err != nil {&#10;&#9;return $VALUE$&#10;}" description="if err" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="nil" alwaysStopAt="true" />
+    <context>
+      <option name="GO_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="pr" value="fmt.Println($LINE$)" description="fmt.println()" toReformat="false" toShortenFQNames="true">
+    <variable name="LINE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

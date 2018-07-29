@@ -1,8 +1,0 @@
-<application>
-  <component name="ParameterNameHintsSettings">
-    <blacklists>
-      <blacklist language="TypeScript" />
-      <blacklist language="Go" />
-    </blacklists>
-  </component>
-</application>
